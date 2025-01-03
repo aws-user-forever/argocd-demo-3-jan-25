@@ -13,7 +13,7 @@ spec:
         app: "httpd"
     spec:
       containers:
-      - name: httpd
-        image: 759294595201.dkr.ecr.us-east-1.amazonaws.com/my-eks-repo-3-jan-25:latest
+      - name: nginx
+        image: nginx
         ports:
         - containerPort: 80
